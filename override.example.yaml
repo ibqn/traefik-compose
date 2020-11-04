@@ -1,8 +1,8 @@
-version: '3.7'
+version: "3.8"
 
 services:
   traefik:
-    container_name: traefik # Remove if using multiple instances
+    # container_name: traefik # Remove if using multiple instances
     networks:
       - proxy # Change if you're using another network
     labels:
@@ -21,4 +21,5 @@ services:
 networks:
   # Change if you're using another network
   proxy:
+    name: proxy
     external: true
