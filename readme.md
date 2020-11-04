@@ -33,7 +33,6 @@ Clone the repository:
 
 ```sh
 git clone https://github.com/ibqn/traefik-compose
-Cloning into 'traefik-dockerized'...
 ```
 
 Create a copy of the example configuration files:
